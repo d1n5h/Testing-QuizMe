@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for the QuizMe app",
   "scripts": {
-  "start": "node api/login.js"
+  "start": "node api/quiz.js"
 
 
   },

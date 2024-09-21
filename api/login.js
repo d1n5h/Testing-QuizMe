@@ -26,7 +26,7 @@ export default async function handler(req, res) {
             res.json({ token });
         } catch (error) {
             console.error('Error during login:', error);
-            res.status(500).json({ message: 'Server error' });
+            res.status(500).json({ message: 'wtf!! Server error' });
         }
     } else {
         res.status(405).json({ message: 'Method Not Allowed' });
